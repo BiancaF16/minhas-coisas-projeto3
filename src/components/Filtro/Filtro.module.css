@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.containerPage{
+    display: flex;
+    flex-direction: row;
+}
+
+.Anuncio img{
+    width: 100%;
+    height: auto;
+}
+
+.Container{
+    width: 11rem;
+    height: auto;
+    padding: 2rem ;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFBFB;
+}
+
+.Container h1{
+    font-family: 'Katibeh', serif;
+    font-size: 3rem;
+    color: hsl(205, 50%, 28%);
+    text-align: center
+
+}
+
+.subtitulo h2{
+    font-family: 'Katibeh', serif;
+    color: #244D6B;
+    font-size: 2rem;
+    text-align: start;
+}
+
+.Categorias{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.opcoes{
+    font-family: 'Karla', sans-serif;
+    display:flex ;
+    gap: .5em;
+}
+
+.filtros button{
+    padding: 4px;
+    margin: 3px;
+    border: none;
+    color: #ffffff;
+    background: #6089A7;
+    border-radius: 8px;
+    cursor: pointer;
+} 

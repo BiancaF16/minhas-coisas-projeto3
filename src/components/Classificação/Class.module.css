@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.Container{
+    width: 100%;
+    height: auto;
+    background: #B2C4CC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 2rem;
+}
+
+.titulo h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: 3rem;
+
+}
+
+.avaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5em;
+    
+}
+
+.comentario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.avaliar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+.estrelaPront{
+    display: flex;
+    margin-left: 3%;
+    font-size: 30px;
+    margin-bottom: -6%;
+    color: rgb(188, 142, 42);
+}
+
+.produto{
+    width: 18%;
+    border-radius: 15px;
+}
+
+.textArea{
+    width: 50vw;
+    height: 13vw;
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.enviarResp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* COMENTARIO */
+
+.comente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.starComent{
+    display: flex;
+    flex-direction: column;
+}
+
+.estrela{
+    display: flex;
+    margin-left: 1%;
+    font-size: 30px;
+    margin-bottom: -4%;
+    color: rgb(188, 142, 42);
+}
+
+.comentario textarea{
+    width: 50vw;
+    height: 13vw;
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+} 
+
+.imgComent{
+    width: 18%;
+    border-radius: 15px;
+}
+
+.icones{
+    display: flex;
+    gap: 1rem;
+    font-size: 25px;
+    justify-content: end;
+    margin-right: 2%;
+    color: #09283F;
+
+}
+
+.enviarResp{
+    display: flex;
+    align-items: end;
+    margin-right: 15%;
+    margin-top: .5rem;
+}
+
+.bntAvaliar{
+    background: #09283F;
+  border-radius: 15px;
+  box-shadow: #1d1d3e 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 6rem;
+  height: 2.5rem;
+  word-break: break-word;
+  border: 0;
+}
+

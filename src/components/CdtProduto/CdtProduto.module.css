@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+body{
+    padding: 0;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: #B2C4CC;
+}
+
+.frase h1 {
+    color: #2A5778;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+    padding-top: 2%;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: #FFF;
+    width: 900px;
+    height: 600px;
+    padding: 10px 0px 30px 0px;
+    
+
+}
+
+.formulario {
+    display: flex;
+
+}
+
+.formulario form {
+    width: 100%;
+    gap: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-right: 60px;
+    
+}
+
+.imagens{
+    display: block;
+    justify-content: start;
+    flex-direction: row;
+    align-items: start;
+}
+
+.imagens h1{
+    color: #2A5778;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 8%;
+     
+}
+
+.imagens p{
+    color: rgb(73, 73, 73);
+    font-family: 'Karla', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 8%;
+    
+}
+
+.inputArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 2px #6089A7;
+    height: 230px;
+    width: 230px;
+    border-radius: 15px;
+
+}
+
+.quad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: #16415f;
+    background-color: #a9cbe3;
+    border-radius: 10px;
+}
+
+.inputArea svg{
+    font-size: 4em;
+    color: #6393b5;
+}
+
+.button{
+    display: flex;
+    height: 0px;
+    width: 0px;
+    margin-right: 65px;
+    padding-top: 10px;
+    
+}
+
+.voltar {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 15px;
+
+    
+}
+
+.voltar svg{
+    font-size: 25px;
+    color: #09283F ;
+
+}

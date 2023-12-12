@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.Input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000000;
+    border-bottom: 2px solid #2A5778;
+    
+
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.label{
+    color: #2A5778;
+    font-family: 'Karla', sans-serif;    
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+
+.form {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input[type="file"]{
+    height: 50px;
+    border-bottom: none;
+    display: none;
+}

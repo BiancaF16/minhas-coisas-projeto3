@@ -1,0 +1,37 @@
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    .navBar {
+        background: #09283F;
+        min-width: 100vw;
+        height: 13%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .logo img{
+        background-repeat: no-repeat;
+        width: 60%;
+        padding-left: 7%;
+        margin-top: 2.5%;
+
+      }
+
+      .navList {
+         display: flex;
+         align-items: center;
+      }
+
+      .navList ul {
+        display: flex;
+        list-style: none;
+      }
+
+      .item a {
+        font-size: 27px;
+        margin: 45px;
+        color: #fff;
+      } 
