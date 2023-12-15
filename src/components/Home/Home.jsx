@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import style from "./Home.module.css";
-import Nav from "../NavBar/Nav";
+import Nav from "../NavBarCliente/NavBarCliente";
+import NavADM from "../NavBarADM/NavBarADM";
+import NavVen from "../NavBarVendedor/NavBarVendedor";
 import slogan from "../../assets/image/slogan.jpg"
 import Footer from "../Footer/Footer";
 import Slide from "../Slide/Slide";

@@ -3,7 +3,7 @@ import NovoComentario from "../Classificação/Class";
 import react, { useState } from "react";
 import Anuncio from "../../assets/image/Anuncio.png"
 import Regata from '../../assets/image/regata.jpg' 
-import Nav from "../NavBar/Nav";
+import Nav from "../NavBarCliente/NavBarCliente";
 import Footer from "../Footer/Footer";
 import { IoMdStar } from "react-icons/io"; //estrela preenchida
 import { IoMdHeartEmpty } from "react-icons/io"; //coração

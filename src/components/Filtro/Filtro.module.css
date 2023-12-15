@@ -3,6 +3,8 @@
 .containerPage{
     display: flex;
     flex-direction: row;
+    
+    
 }
 
 .Anuncio img{
@@ -13,6 +15,7 @@
 .Container{
     width: 11rem;
     height: auto;
+    margin-top: 1rem;
     padding: 2rem ;
     display: flex;
     flex-wrap: wrap;
@@ -55,3 +58,4 @@
     border-radius: 8px;
     cursor: pointer;
 } 
+

@@ -11,58 +11,106 @@ function Produto() {
                 <div className={style.centro}>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                             <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
 
                     <div className={style.cards}>
-                        <img src={blusa}></img>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
-                        <button>comprar</button>
                         </div>
+                        <button>comprar</button>
                     </div>
+
+                    <div className={style.cards}>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.texts}>
+                        <h1>Cropped Vintage</h1>
+                        <h2>R$ 12,60</h2>
+                        </div>
+                        <button>comprar</button>
+                    </div>
+
+                    <div className={style.cards}>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.texts}>
+                        <h1>Cropped Vintage</h1>
+                        <h2>R$ 12,60</h2>
+                        </div>
+                        <button>comprar</button>
+                    </div>
+
+                    <div className={style.cards}>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.texts}>
+                        <h1>Cropped Vintage</h1>
+                        <h2>R$ 12,60</h2>
+                        </div>
+                        <button>comprar</button>
+                    </div>
+
+                    <div className={style.cards}>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.texts}>
+                        <h1>Cropped Vintage</h1>
+                        <h2>R$ 12,60</h2>
+                        </div>
+                        <button>comprar</button>
+                    </div>
+
+                    <div className={style.cards}>
+                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.texts}>
+                        <h1>Cropped Vintage</h1>
+                        <h2>R$ 12,60</h2>
+                        </div>
+                        <button>comprar</button>
+                    </div>
+
+
+                    
 
                 </div>
 

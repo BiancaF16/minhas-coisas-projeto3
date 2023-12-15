@@ -18,6 +18,7 @@ function Rotas() {
             <Route path='/cadastroDeProduto' element={<CdtProduto/>}/>
             <Route path='/Detalhes' element={<Detalhes/>}/>
             <Route path='/Pesquisar' element={<Pesquisar/>}/>
+
             </Routes>
         </BrowserRouter>
     )

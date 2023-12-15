@@ -4,7 +4,7 @@ import styles from './CdtProduto.module.css';
 import { FaCamera } from "react-icons/fa";
 import { SlArrowLeft } from "react-icons/sl";
 import { Link } from 'react-router-dom';
-import Nav from '../NavBar/Nav';
+import Nav from '../NavBarCliente/NavBarCliente';
 import Footer from '../Footer/Footer';
 
 

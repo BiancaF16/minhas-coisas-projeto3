@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import style from "./Filtro.module.css";
-import Nav from "../NavBar/Nav";
+import Nav from "../NavBarCliente/NavBarCliente";
 import Anuncio from "../../assets/image/Anuncio.png";
 import Produto from "../Produtos/Produtos";
 
