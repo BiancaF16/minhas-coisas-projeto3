@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+.body{
+    padding: 30px;
+    margin: 30px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background: #B2C4CC;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    border-radius: 25px;
+    background: #FFF;
+    width: 900px;
+    height: 600px;
+}
+
+.foto{
+    border-radius: 15px 0px 0px 15px;
+    width: 430px;
+    height: 600px;
+    
+}
+
+.formulario{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    padding: 3%;
+}
+
+.formulario h1 {
+    color: #2A5778;
+    font-family: 'Katibeh', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 8%;
+}
+
+
+.linkReg {
+    font-size: .9em;
+    color: #244D6B;
+    text-align: center;
+    font-weight: 500;
+  }
+
+.registro {
+    padding-bottom: 8%;
+    
+}
+
+.bntCadastrar{
+  background: #09283F;
+  border-radius: 999px;
+  box-shadow: #1d1d3e 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 230px;
+  word-break: break-word;
+  border: 0;
+  
+}
+
+.backLogin{
+    margin-top: 5%;
+}

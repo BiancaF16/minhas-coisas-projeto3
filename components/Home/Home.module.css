@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.marketing{
+    height: 650px;
+}
+  
+.marketing img {
+    width: 100%;
+    height: 100%;
+}

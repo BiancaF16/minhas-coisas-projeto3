@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    width: 100%;
+    height: auto;
+    background:#D9E6EC;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.texts{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 15px;
+    background: #D9E6EC; 
+    justify-content: center;
+    align-items: center;
+}
+
+.texts h1{
+    font-size: 3.5rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+    color: #2A5778;
+    font-family: 'Katibeh', serif;
+    font-weight: 500;    
+    
+}
+
+.estilo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.cards{
+    width: 230px;
+    height: 350px;
+    background: #D9E6EC;
+} 
+
+.cards img{
+    width: 240px;
+    margin: 1.5rem;
+    border-radius: 20px;
+}
+
+.cards h2{
+    margin-top: -20px;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    margin-right: 3rem;
+}
+
+.cards h1{
+    font-size: 1.5rem;
+    margin-left: 11.5rem;
+    margin-top: -27px;
+    cursor: pointer;
+
+}
+
+.cards h3{
+    font-size: 23px;
+    margin-left: 220px;
+    margin-top: -28px;
+    color: #BA0808;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+
+}

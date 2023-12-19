@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container{
+    width: 85%;
+    height: auto;
+    background: #D9E6EC;
+    display: flex;
+}
+
+.centro{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 290px;
+    border-radius: 45px 45px 45px 45px;
+    background: #fff;
+    
+} 
+.divImagem{
+    width: 80%;
+    padding-top: .5rem;
+}
+.cards img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.texts {
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    font-size: 10px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .4em;
+}
+
+.texts h1{
+    font-family: 'Karla', sans-serif;
+    margin-top: 3px;
+}
+
+.texts h2{
+    font-family: 'Karla', sans-serif;
+    margin-top: 1px;
+}
+
+.cards button{
+    margin-top: .4rem;
+    width: 85px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #5687AA;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.cards button:hover{
+    height: 27px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container{
+    background-color: #D9E6EC;
+    width: 100%;
+    height: auto;
+}
+
+.cabecalho{
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: start;
+    
+}
+
+.titulo{
+    font-size: 27px;
+    color: #244D6B;
+    padding-bottom: 5%;
+    font-family: 'Karla', sans-serif;}
+
+.fechar{
+    border: none;
+    background: transparent;
+    color: #244D6B;
+    margin-left: 35%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.img{
+    width: 30%;
+    border-radius: 10%;    
+}
+
+.produto{
+    display: flex;
+    justify-content: start;
+    gap: 5%;
+    padding-bottom: 10%;
+}
+
+h4{
+    padding-bottom: 5% ;
+    font-family: 'Karla', sans-serif;}
+
+p{
+    padding-bottom: 20%;
+    font-family: 'Karla', sans-serif;}
+
+h3{
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.bnt1{
+    border: none;
+    text-align: center;
+    background: #244D6B;
+    color: white;
+    width: 12%;
+    border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+
+}
+
+.bnt2{
+    text-align: center;
+    border: none;
+    color: white;
+    background: #244D6B;
+    width: 12%;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+
+}
+
+.Input{
+    border: none;
+    color: white;
+    background-color: #244D6B;
+    text-align: center;
+    width: 17%; height: 16px;
+}
+
+/* POSITION FIXED */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    height: auto;
+    left: 70.9%;
+    top: 87%;
+    min-width: 100vw;
+    z-index: 2001;
+    background-color: #5687AA;
+}
+
+
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5%;
+
+}
+
+.valor{
+    padding-left: 19vw;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    margin: 1%;
+    
+}
+
+
+.bnt{
+    background: #244D6B;
+    border-radius: 16px;
+    box-shadow: #1d1d3e 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 160px;
+    word-break: break-word;
+    border: 0;
+    
+}

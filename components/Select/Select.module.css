@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.select{
+    display: flex;
+    justify-content: start;
+}
+
+.label{
+    display: flex;
+    justify-content: start;
+    color: #2A5778;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 3% ;
+}
+
+ .selecao { 
+    background: #ECECEC; 
+    color: #535353;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    
+ }      
+
+Input, Select  {
+    margin-bottom: 20px;
+}
+

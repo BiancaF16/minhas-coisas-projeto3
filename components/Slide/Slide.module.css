@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.catalogo{
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+    background-color: #D9E6EC;
+    /* position: fixed; */
+}
+
+.categorias{
+    padding-top: 0.5%;
+    width: 100%;
+    background-color: transparent;
+    
+}
+  
+/* BOTÕES */
+
+.um, .tres, .cinco, .sete {
+    border-radius: 10px;
+    background: #6089A7;
+    margin: 7px;
+    width: 80px;
+    height: 35px;
+    color: #D9E6EC;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-inline: 60px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.dois, .quatro, .seis{
+    border-radius: 10px;
+    background: #2A5778;
+    color: #D9E6EC;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 80px;
+    height: 35px;
+    margin-inline: 40px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.um:hover, .dois:hover, .tres:hover, .quatro:hover, .cinco:hover, .seis:hover, .sete:hover {
+    transform: translateY(-5px);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    margin: 1%;
+    
+}
+.cards{
+    width: 240px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+.divImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagem{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.divTexto{
+    padding-top: 4%;
+}
+
+.h1{
+    font-size: 23px;
+    font-family: 'Karla', sans-serif;
+}    
+
+.h2{
+    font-size: 20px;
+    padding: 3%;
+    font-family: 'Karla', sans-serif;
+}
+
+.botao{
+    background: #09283F;
+  border-radius: 999px;
+  box-shadow: #1d1d3e 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 180px;
+  word-break: break-word;
+  border: 0;
+}
+
+.botao:hover{
+    transform: scale(0.9);
+    transition: all 500ms;
+}
+.anuncio{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.baixe img{
+    margin-top: 1%;
+    width: 100%;
+    height: 250px;
+    border-radius: 45px ;
+}
+

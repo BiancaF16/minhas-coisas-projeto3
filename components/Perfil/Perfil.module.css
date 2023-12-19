@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.SubMenuWrap{
+    /* position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 250px; */
+    display: block;
+    height: 10vh;
+    position: relative;
+}
+
+.Submenu{
+    background: #09283F;
+    width: 210px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin-left: 130%;
+    margin-top: 200px;
+    z-index: 1000;
+    position: relative;
+}
+
+.Infor{
+    display: flex;
+    align-items: center;
+}
+
+.Infor h2{
+    font-size: 25px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.Icon{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+.Submenu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #0b3a5b;
+    margin: 10px 0 1px;
+}
+
+.Link li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 15px 0 1px;
+    opacity: 1;
+}
+
+.Link ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.Link a:hover{
+    color: #17537e;
+    border-radius: 5px;
+   }
+
+.Link a{
+    text-decoration: none;
+    color: aliceblue;
+}
