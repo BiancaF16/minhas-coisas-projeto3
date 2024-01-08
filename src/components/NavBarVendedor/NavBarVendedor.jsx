@@ -37,7 +37,7 @@ function NavVend() {
     <header className={style.header}>
       <div className={style.navBar}>
         <div className={style.logo}>
-          <img src={logo}></img>
+          <img src={logo} alt="imagem"></img>
         </div>
         <div className={style.navList}>
           <ul>
@@ -62,17 +62,17 @@ function NavVend() {
 
 
             <li className={style.item}>
-              <a href="#" onClick={toggleSearchField}>
+              <a href="" onClick={toggleSearchField}>
                 <FaSearch />
               </a>
             </li>
             <li className={style.item}>
-              <a href="#" onClick={toggleOptions}>
+              <a href="" onClick={toggleOptions}>
                 <IoPersonCircleSharp />
               </a>
             </li>
             <li className={style.item}>
-              <a href="#">
+              <a href="">
                 <HiViewGridAdd/> 
               </a> 
             </li>

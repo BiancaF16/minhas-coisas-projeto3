@@ -11,7 +11,7 @@ function Filtro() {
     <div>
       <Nav />
       
-      <div className={style.Anuncio}><img src={Anuncio}></img></div>
+      <div className={style.Anuncio}><img src={Anuncio} alt="imagem"></img></div>
       
       <div className={style.containerPage}>
 

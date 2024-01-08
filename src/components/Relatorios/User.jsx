@@ -1,26 +1,32 @@
 import Style from './User.module.css';
+import { Link } from 'react-router-dom';
 
 function User () {
     return(
-        <div>
-            <table className={Style.formulario}>
-                <thead>
-                    <tr>
-                        <th>Usuário</th>
-                        <th>Email</th>
-                        <th>Status da conta</th>
-                        <th>Crompas</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <th>fulano</th>
-                    <th>fulano@gmail.com</th>
-                    <th>2 anos</th>
-                    <th>1.000</th>
-                </tbody>
-            </table>
-        </div>
-    );
+    <>
+
+    <header className={Style.formCbç}>
+        <h2>Lista de Usuários</h2>
+        <Link to={"/Home"}><button className={Style.btnVoltar}>Voltar</button></Link>
+    </header>
+
+    <div className={Style.tabela}>
+        <table className={Style.formulario}>
+            <thead>
+              <th>ID</th>
+              <th>USUÁRIO</th>
+              <th>EMAIL</th>
+              <th>COMPRAS</th>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+          
+    </div>
+    </>
+
+);
 };
 
 export default User;

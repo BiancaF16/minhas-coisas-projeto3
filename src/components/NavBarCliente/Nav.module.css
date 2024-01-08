@@ -1,7 +1,4 @@
-/* .header{
-    position: fixed;
-    } */
-    
+
     .navBar {
       width: 100vw;
       height: 13%;
@@ -9,7 +6,6 @@
       flex-direction: row;
       justify-content: space-between;
       background: #09283F;
-      position: fixed;
       top: 0;
     }
   

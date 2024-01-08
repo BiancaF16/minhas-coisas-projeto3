@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
 
 .body{
@@ -12,7 +11,7 @@
 
 .container{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     border-radius: 25px;
     background: #FFF;
     width: 900px;

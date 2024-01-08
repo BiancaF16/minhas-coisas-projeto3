@@ -4,7 +4,6 @@ import style from "./NavBarADM.module.css";
 import logo from "../../assets/image/logo.png";
 import { FaSearch } from "react-icons/fa"; //lupa
 import { IoPersonCircleSharp } from "react-icons/io5";
-import { IoBagHandle } from "react-icons/io5";
 import { IoHeart } from "react-icons/io5";
 import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from "react";
@@ -39,7 +38,7 @@ function NavAdm() {
     <header className={style.header}>
       <div className={style.navBar}>
         <div className={style.logo}>
-          <img src={logo}></img>
+          <img src={logo} alt="imagem"></img>
         </div>
         <div className={style.navList}>
           <ul>

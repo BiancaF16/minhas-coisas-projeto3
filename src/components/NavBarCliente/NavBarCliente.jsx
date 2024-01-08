@@ -74,14 +74,14 @@ function Nav(props) {
     <header className={style.header}>
       <div className={style.navBar}>
         <div className={style.logo}>
-          <Link to={"/Home"}><img src={logo}></img></Link>
+          <Link to={"/Home"}><img src={logo} alt="imagem"></img></Link>
         </div>
         <div className={style.navList}>
           <ul>
             {componenteVisivel && (
               
               <div className={style.inputPesquisa}>
-                 <Link to={"/"}><input 
+                 <Link to={"/Pesquisar"}><input 
                 type="text"
                 placeholder="Pesquisar produto"
                 value={inputValue}

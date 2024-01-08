@@ -41,15 +41,15 @@ function Detalhes() {
   return (
     <>
       <Nav />
-      <div className={style.Anuncio}><img src={Anuncio}></img></div>
+      <div className={style.Anuncio}><img src={Anuncio} alt="imagem"></img></div>
       <div className={style.Container}>
         <div className={style.modal}>
           <div className={style.Fundo}>
             <div className={style.Detalhe1}>
-              <img src={Regata} className={style.img1} />
+              <img src={Regata} className={style.img1}  alt="imagem" />
               <div className={style.teste}>
-                <img src={Regata} className={style.img2} />
-                <img src={Regata} className={style.img3} />
+                <img src={Regata} className={style.img2} alt="imagem"/>
+                <img src={Regata} className={style.img3} alt="imagem" />
               </div>
             </div>
             <div className={style.Detalhe2}>
@@ -63,20 +63,13 @@ function Detalhes() {
                 <h3>
                   Detalhes: Tamanho único
                 </h3>
+                <p>*Restam apenas x</p>
                 <div className={style.icon}>
                   <IoMdStar/>
                   <IoMdStar/>
                   <IoMdStar/>
                   <IoMdStar/>
                   <IoMdStar/>
-                  {/* {[1, 2, 3, 4, 5].map((starValue) => (
-                    <div
-                      key={starValue}
-                      onClick={() => handleClickStar(starValue)}
-                    >
-                      {renderSelectedStar(starValue)}
-                    </div>
-                  ))} */}
                 </div>
                 <div className={style.botoes}>
                   <button className={style.addCarrinho}>Adicionar ao Carrinho</button>

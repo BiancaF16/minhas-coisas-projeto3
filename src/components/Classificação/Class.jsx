@@ -41,7 +41,7 @@ function NovoComentario(){
 
           <div className={style.comentario}>
 
-            <img className={style.produto} src={Regata}></img>
+            <img className={style.produto} src={Regata} alt="imagem"></img>
 
             <div className={style.avaliar}>
 
@@ -54,7 +54,7 @@ function NovoComentario(){
                </div>
 
               <div>
-              <TextArea value="Anonimo: Adorei " className={style.textArea} />
+              <TextArea value="Ótimo produto!" />
               </div>
 
             </div>
@@ -66,7 +66,7 @@ function NovoComentario(){
           { avaliacaoVisivel && 
           <>
             <div className={style.comente}>
-              <img className={style.imgComent} src={Regata}></img>
+              <img className={style.imgComent} src={Regata} alt="imagem"></img>
               <div className={style.starComent}>
                 <div className={style.estrela}>
                   {[1, 2, 3, 4, 5].map((starValue) => (

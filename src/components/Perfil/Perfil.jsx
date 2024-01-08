@@ -21,7 +21,7 @@ function Perfil ({togglePerfil}) {
                 <hr></hr>
                 <div className={style.Link}>
                 <ul>
-                    <li><Link to="/curtidas">Meus Curtidos</Link></li>
+                    <li><Link to="/Curtidos">Meus Curtidos</Link></li>
                     <li><Link to="">Meus Pedidos</Link></li>
                     <li><Link to=""><ImExit/></Link></li>
                     <li><a onClick={togglePerfil}>Voltar</a></li>

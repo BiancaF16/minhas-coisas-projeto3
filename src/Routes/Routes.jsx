@@ -5,7 +5,8 @@ import CdtProduto from '../components/CdtProduto/CdtProduto';
 import Home from '../components/Home/Home';
 import Detalhes from '../components/detalhesPdt/Detalhes'
 import Pesquisar from '../components/Filtro/Filtro'
-
+import Curtidos from "../components/Curtidas/Curtidas"
+import Relatorio from '../components/Relatorios/User'
 
 function Rotas() {
     return (
@@ -18,6 +19,9 @@ function Rotas() {
             <Route path='/cadastroDeProduto' element={<CdtProduto/>}/>
             <Route path='/Detalhes' element={<Detalhes/>}/>
             <Route path='/Pesquisar' element={<Pesquisar/>}/>
+            <Route path='/Curtidos' element={<Curtidos/>}/>
+            <Route path='/Relatorios' element={<Relatorio/>}/>
+            
 
             </Routes>
         </BrowserRouter>

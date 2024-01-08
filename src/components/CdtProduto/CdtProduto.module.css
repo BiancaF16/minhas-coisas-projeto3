@@ -10,26 +10,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
-}
-
-body{
-    padding: 0;
-    display: flex;  
-    justify-content: center;
-    align-items: center;
+    padding: 1%;
     background: #B2C4CC;
 }
 
+
 .frase h1 {
     color: #2A5778;
-    font-family: 'Karla', sans-serif;
-    font-size: 30px;
+    font-family: 'Katibeh', serif;
+    font-size: 40px;
     font-weight: 600;
-    padding-bottom: 5%;
-    padding-top: 2%;
-
-
+    margin: 20px;
 }
 
 .container{
@@ -39,9 +30,6 @@ body{
     background: #FFF;
     width: 900px;
     height: 600px;
-    padding: 10px 0px 30px 0px;
-    
-
 }
 
 .formulario {
@@ -62,9 +50,9 @@ body{
 
 .imagens{
     display: block;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .imagens h1{
@@ -110,6 +98,7 @@ body{
 .inputArea svg{
     font-size: 4em;
     color: #6393b5;
+    cursor: pointer;
 }
 
 .button{
@@ -133,5 +122,6 @@ body{
 .voltar svg{
     font-size: 25px;
     color: #09283F ;
+    margin: 10px;
 
 }

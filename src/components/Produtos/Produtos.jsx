@@ -11,7 +11,7 @@ function Produto() {
                 <div className={style.centro}>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -20,7 +20,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -29,7 +29,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -38,7 +38,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -47,7 +47,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                             <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -56,7 +56,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -65,7 +65,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -74,7 +74,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -83,7 +83,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -92,7 +92,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>
@@ -101,7 +101,7 @@ function Produto() {
                     </div>
 
                     <div className={style.cards}>
-                        <div className={style.divImagem}><img src={blusa}></img></div>
+                        <div className={style.divImagem}><img src={blusa} alt="imagem"></img></div>
                         <div className={style.texts}>
                         <h1>Cropped Vintage</h1>
                         <h2>R$ 12,60</h2>

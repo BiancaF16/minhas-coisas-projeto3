@@ -4,102 +4,95 @@
     padding: 0;
     margin: 0;
 }
-.footer {
-    width: 100%;
-    background-color: #09283F;
- }
-
- .link{
-    text-decoration: none;
- }
 
 .container{
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   padding: 3rem 3rem;
-}
-
-.socialMedia {
-   display: flex;
-   gap: 2rem;
-   margin-top: -2rem;
-   cursor: pointer;
-   padding-left: 2%;
-}
-
-.socialMedia a{
-    color: #FFFFFF;
-}
-
-.container h3{
-    font-size: 1.5em;
-    color: aliceblue;
-}
-
-.list {
     display: flex;
-    flex-direction: column;
-    gap: .7rem;
-    list-style: none;
-    margin-top: -10%;
- }
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30vh;
+    background-color: #09283F;
+    position: absolute;
+
+}
 
 .redesSociais{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5%;
-}
-
-.list .link {
-    color: #6089A7;
-    transition: all 0.4s;
-
- }
-
-.list .link:hover {
-    color: #374d82;
- }
-
-.subscribe {
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-    margin-top: -9%;
- }
- 
-.subscribe p {
+    gap: 10%;
+}
+
+.redesSociais a {
+    color: white;
+}
+
+li:hover{
     color: #6089A7;
- }
+    transition: all 0.4s;
+}
 
-.inputGroup {
-    display: flex;
-    align-items: center;
-    background-color: #FFFFFF;
-    border-radius: 4px;
- }
+h3{
+    font-size: 23px;
+    margin-bottom: 5%;
+}
 
-.inputGroup input {
-    all: unset;
-    padding: 0.75rem;
-    width: 100%;
- }
+.Suporte{
+    margin-top: 2%;
+    color: white;
+}
 
-.inputGroup button {
+.Suporte li{
+    padding: 10%;
+    list-style-type: none;
+    
+}
+
+.Empresa{
+    margin-top: 2%;
+    color: white;
+
+}
+
+.Empresa li{
+    padding: 10%;
+    list-style-type: none;
+
+}
+
+.termos{
+    margin-top: 2%;
+    color: white;
+
+}
+
+.termos li{
+    padding: 8%;
+    list-style-type: none;
+    inline-size: 100%;
+}
+
+.email{
+    margin-top: 3%;
+}
+
+.email p{
+    padding: 10%;
+    color: white;
+    inline-size: 100%;
+}
+
+.email input {
+    height: 15%;
+}
+
+.email button {
     background-color: #6089A7;
+    color: white;
     border: none;
     padding: 0px 1.25rem;
-    font-size: 1.125rem;
-    height: 100%;
+    font-size: 1rem;
+    height: 32px;
     border-radius: 0px 4px 4px 0px;
     cursor: pointer;
-    transition: all 0.4s;
- }
-
-.copyright {
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-    padding: 1rem;
-    font-weight: 100;
- }
+}

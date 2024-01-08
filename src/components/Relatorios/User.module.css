@@ -1,1 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #B2C4CC;
+    width: 100%;
+}
+
+.formCbç{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100% ; height: 80px;
+    background: #B2C4CC;
+}
+
+.formCbç h2 {
+    font-family: 'Katibeh', serif;
+    margin: 20px;
+    color: #09283F;
+    font-size: 30px;
+}
+
+.btnVoltar{
+    margin: 20px;
+    border-radius: 10px;
+    width: 108px; height: 30px;
+    font-weight:500 ;
+    font-size: 16px;
+    background-color: #2A5778;
+    color: white;
+    border: none;
+    font-family: 'Karla', sans-serif;    
+}
+
+.tabela{
+    padding: 20px;
+}
+
+.formulario {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    font-family: 'Karla', sans-serif;    
+    color: #09283F;
+}
+
+td, th {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #B2C4CC;
+}
+
+.btnVoltar:hover{
+    cursor: pointer;
+    transition: .3s;
+    transition: .5s;
+    font-size: 18px;
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  top: 10px;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, #09283F 0%, #09283F 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #0a1d2c;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #09283F;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #09283F;
+}
